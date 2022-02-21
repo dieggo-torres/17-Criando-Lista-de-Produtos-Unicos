@@ -22,8 +22,7 @@ def obter_produtos_unicos(*args):
     return produtos_unicos
 
 
-lista_produtos_unicos = obter_produtos_unicos(
-    estoque_fim_jan, estoque_fim_fev, estoque_fim_mar, estoque_fim_abr)
+lista_produtos_unicos = obter_produtos_unicos(estoque_fim_jan, estoque_fim_fev, estoque_fim_mar, estoque_fim_abr)
 
 print(f"Há {len(lista_produtos_unicos)} produtos únicos.")
 print("São estes:")
